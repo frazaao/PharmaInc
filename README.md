@@ -46,3 +46,6 @@ vite v2.9.5 dev server running at:
   ready in 377ms.
 ```
 
+Após isto basta entrar no navegador usando o endereço que o console te retornar em "Local".
+
+## Feito com ❤️ por Frazaao
