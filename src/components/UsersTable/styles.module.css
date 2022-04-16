@@ -1,0 +1,59 @@
+.tableContainer{
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+
+.tableContainer thead tr th{
+    padding: 12px;
+    text-align: center;
+    width: 25%;
+    border: 2px solid var(--dark-blue);
+    background: var(--dark-blue);
+    color: white;
+}
+
+.tableContainer thead tr th button{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-flex;
+    gap: .5rem;
+}
+
+.tableContainer thead tr th button svg{
+    fill: white;
+}
+
+.tableContainer tbody tr td{
+    padding: 12px;
+    text-align: center;
+    width: 25%;
+    border: 2px solid var(--dark-blue);
+}
+
+.tableContainer tbody tr td a{
+    display:inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    background: var(--dark-blue);
+    border: none;
+    padding: 12px 32px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+
+    transition: filter .2s ease-in-out;
+}
+
+.tableContainer tbody tr td a svg{
+    fill: white;
+    font-weight: 400;
+}
+
+.tableContainer tbody tr td a:hover{
+    filter: brightness(150%);
+}

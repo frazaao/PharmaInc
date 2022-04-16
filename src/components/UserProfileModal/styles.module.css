@@ -1,0 +1,60 @@
+.modalContainer{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.modalContainer h1{
+    color: white;
+}
+
+.modalContent{
+    max-width: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #eee;
+    padding: 5rem;
+    padding-top: 0;
+    position: relative;
+}
+
+.buttonCloseModal{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.profilePicture{
+    position: relative;
+    top: -4rem;
+}
+
+.profilePicture img{
+    border-radius: 50%;
+}
+
+.profileInformations{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.profileInformations li{
+    flex: 1;
+    display: inline-flex;
+    gap: 0.75rem;
+    margin-bottom: 12px;
+}
+
+.profileInformations li p{
+    font-weight: bold;
+}

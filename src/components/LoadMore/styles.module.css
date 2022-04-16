@@ -1,0 +1,22 @@
+.loadMoreButton{
+    border: none;
+    background: none;
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.loadMoreButton.active svg{
+    animation: 1.5s loading ease-in-out;
+}
+
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(1080deg);
+    }
+}
